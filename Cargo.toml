@@ -1,12 +1,12 @@
 [package]
 name = "hattrie"
-version = "0.9.0"
+version = "0.9.1"
 edition = "2024"
 license = "MPL-2.0"
 authors = ["Norm O <normo.pub@gmail.com>"]
 
 description = "A high-performance, cache-conscious, ordered map for string keys, based on the HAT-trie paper."
-repository = "https://github.com/normano/hat-trie"
+repository = "https://github.com/normano/hattrie"
 readme = "README.md"
 keywords = ["trie", "map", "cache-conscious", "sorted", "string"]
 categories = ["data-structures", "caching", "text-processing"]

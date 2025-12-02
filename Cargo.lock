@@ -290,7 +290,7 @@ dependencies = [
 
 [[package]]
 name = "hattrie"
-version = "0.9.0"
+version = "0.9.1"
 dependencies = [
  "ahash",
  "bench_matrix",
