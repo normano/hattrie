@@ -1,4 +1,4 @@
-use hat_trie::HatTrie;
+use hattrie::HatTrie;
 use proptest::prelude::*;
 use std::collections::BTreeMap;
 

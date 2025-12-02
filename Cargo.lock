@@ -289,7 +289,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "hat-trie"
+name = "hattrie"
 version = "0.9.0"
 dependencies = [
  "ahash",

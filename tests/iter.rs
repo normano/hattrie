@@ -1,4 +1,4 @@
-use hat_trie::HatTrie;
+use hattrie::HatTrie;
 
 #[test]
 fn test_from_iter() {

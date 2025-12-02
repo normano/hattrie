@@ -1,6 +1,6 @@
 use std::collections::{BTreeMap, HashSet};
 
-use hat_trie::HatTrie;
+use hattrie::HatTrie;
 use proptest::prelude::*;
 
 #[test]

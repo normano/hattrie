@@ -16,7 +16,7 @@ The **HAT-trie** is a hybrid data structure combining a **Radix Tree** (also kno
 The API mimics standard Rust collections. You can insert, retrieve, mutate, and remove items using string-like keys.
 
 ```rust
-use hat_trie::HatTrie;
+use hattrie::HatTrie;
 
 fn main() {
     // Initialize with a recommended threshold for general use

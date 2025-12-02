@@ -1,6 +1,6 @@
 #![cfg(feature = "serde")]
 
-use hat_trie::HatTrie;
+use hattrie::HatTrie;
 use serde_json;
 
 #[test]

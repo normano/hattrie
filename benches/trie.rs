@@ -2,7 +2,7 @@ use bench_matrix::{
   AbstractCombination, MatrixCellValue, criterion_runner::sync_suite::SyncBenchmarkSuite,
 };
 use criterion::{Criterion, Throughput, criterion_group, criterion_main};
-use hat_trie::HatTrie;
+use hattrie::HatTrie;
 use rand::{Rng, SeedableRng, prelude::SliceRandom, seq::IndexedRandom};
 use rand_pcg::Pcg64;
 use std::{

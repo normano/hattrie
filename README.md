@@ -43,7 +43,7 @@ hat-trie = { version = "0.9.0", features = ["serde"] }
 To begin using the library, simply create a new instance and start inserting keys.
 
 ```rust
-use hat_trie::HatTrie;
+use hattrie::HatTrie;
 
 fn main() {
     let mut trie = HatTrie::new();
