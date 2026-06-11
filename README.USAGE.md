@@ -1,6 +1,6 @@
-# Usage Guide: hat-trie
+# Usage Guide: hattrie
 
-This guide provides a detailed overview of the `hat-trie` library, covering core concepts, configuration, and advanced query capabilities for high-performance string management.
+This guide provides a detailed overview of the `hattrie` library, covering core concepts, configuration, and advanced query capabilities for high-performance string management.
 
 ## Core Concepts
 
@@ -115,7 +115,7 @@ while let Some(item) = iter.next() {
 
 ## Range Queries and Cursors
 
-`hat-trie` supports arbitrary range queries, making it suitable for database-like workloads.
+`hattrie` supports arbitrary range queries, making it suitable for database-like workloads.
 
 *   `fn range<'a, R, K>(&'a self, range: R) -> impl Iterator`
     Returns an iterator over a subset of the map. Supports `..`, `start..`, `..end`, and `start..end` syntax. The iterator efficiently seeks to the start of the range.

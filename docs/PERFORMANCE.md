@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-The `hat-trie` library, with Path Compression enabled, provides a superior alternative to Rust's standard `BTreeMap` for most string-based workloads. The optimal `burst_threshold` depends heavily on the specific use case, offering a clear trade-off between write speed, read speed, and fuzzy search performance.
+The `hattrie` library, with Path Compression enabled, provides a superior alternative to Rust's standard `BTreeMap` for most string-based workloads. The optimal `burst_threshold` depends heavily on the specific use case, offering a clear trade-off between write speed, read speed, and fuzzy search performance.
 
 *   **`1024` threshold:** The best all-around performer, achieving near-parity with `BTreeMap` on URL insertions while dominating on random data writes. It is the clear winner for Fuzzy Search.
 *   **`16384` threshold:** The read-performance champion. It provides the fastest lookups for structured data (URLs) by minimizing tree depth, making it ideal for static, read-heavy workloads.

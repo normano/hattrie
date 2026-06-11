@@ -1,9 +1,9 @@
-# hat-trie
+# hattrie
 
 [![License: MPL-2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-[![Crates.io](https://img.shields.io/crates/v/hat-trie?label=hat-trie)](https://crates.io/crates/hat-trie)
+[![Crates.io](https://img.shields.io/crates/v/hattrie?label=hattrie)](https://crates.io/crates/hattrie)
 
-**hat-trie** is a high-performance, cache-conscious, ordered string map implementation for Rust. It addresses the performance bottlenecks of traditional Tries and the memory overhead of standard HashMaps by combining a Trie-based index with flat, cache-friendly array buckets. This structure allows for fast, sorted access to variable-length string keys while minimizing pointer chasing and memory fragmentation.
+**hattrie** is a high-performance, cache-conscious, ordered string map implementation for Rust. It addresses the performance bottlenecks of traditional Tries and the memory overhead of standard HashMaps by combining a Trie-based index with flat, cache-friendly array buckets. This structure allows for fast, sorted access to variable-length string keys while minimizing pointer chasing and memory fragmentation.
 
 ## Key Features
 
@@ -24,18 +24,18 @@ Developers can tune the "burst threshold"—the size limit at which a bucket spl
 
 ## Installation
 
-Add `hat-trie` to your `Cargo.toml` dependencies:
+Add `hattrie` to your `Cargo.toml` dependencies:
 
 ```toml
 [dependencies]
-hat-trie = "0.9.0"
+hattrie = "0.9.0"
 ```
 
 To enable serialization support via `serde`, add the feature flag:
 
 ```toml
 [dependencies]
-hat-trie = { version = "0.9.0", features = ["serde"] }
+hattrie = { version = "0.9.0", features = ["serde"] }
 ```
 
 ## Getting Started

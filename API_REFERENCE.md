@@ -1,8 +1,8 @@
-# API Reference: hat-trie
+# API Reference: hattrie
 
 ## 1. Introduction & Core Concepts
 
-The `hat-trie` library provides a high-performance, cache-conscious ordered map implementation optimized for string (or byte-sequence) keys.
+The `hattrie` library provides a high-performance, cache-conscious ordered map implementation optimized for string (or byte-sequence) keys.
 
 ### Core Types
 *   **`HatTrie<V>`**: The primary entry point. It is a key-value collection that behaves similarly to `std::collections::BTreeMap` but uses a Hashed Array Tree Trie structure for improved cache locality and reduced memory usage with string keys.
